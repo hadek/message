@@ -1,7 +1,7 @@
 <?php
 
 // connexion à la BDD
-include('connexion.php');
+include('../connexion.php');
 //réception des données
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
